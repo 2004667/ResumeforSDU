@@ -1,0 +1,388 @@
+@media only screen and (min-width: 1601px){
+    .name{
+        font-size: 30px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: flex;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 30%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .account-param{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+        width: 250px;
+        gap: 3%;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+    }
+    .main-header{
+        font-size:30px ;
+    }
+    .main-main{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+    }
+    .main-school-header{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    .main-school{
+        width: 400px;
+    }
+    .main-university{
+        width: 400px;
+    }
+    .main-university-header{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    .main-school-address, .main-university-address{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    .header-menu{
+        display: none;
+    }
+    .main-school-name{
+        font-size: 20px;
+    }
+    .main-school-year{
+        font-size: 20px;
+    }
+    .main-school-address{
+        font-size: 20px;
+    }
+    .main-school-gpa{
+        font-size: 20px;
+    }
+    .main-school-text{
+        font-size: 20px;
+    }
+    .main-university-name{
+        font-size: 20px;
+    }
+    .main-university-year{
+        font-size: 20px;
+    }
+    .main-university-address{
+        font-size: 20px;
+    }
+    .main-university-gpa{
+        font-size: 20px;
+    }
+    .main-university-text{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1600px) {
+    .name{
+        font-size: 30px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: flex;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 30%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .account-param{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+        width: 250px;
+        gap: 3%;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-header{
+        font-size:25px ;
+    }
+    .main-main{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+    }
+    .main-school-header{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    .main-school{
+        width: 350px;
+    }
+    .main-university{
+        width: 350px;
+    }
+    .main-university-header{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }
+    .main-school-address, .main-university-address{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+    }  
+    .header-menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 429px) and (max-width: 800px) {
+    .name{
+        font-size: 25px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 15px;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: none;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 12%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .nav{
+        display: flex;
+        justify-content: start;
+        gap: 12%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-header{
+        font-size:25px ;
+    }
+    .main-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-school-header{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-school{
+        width: 400px;
+        text-align: center;
+    }
+    .main-university{
+        width: 400px;
+        text-align: center;
+    }
+    .main-university-header{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-school-address, .main-university-address{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-menu{
+        display: none;
+    }
+}
+@media only screen and (max-width:428px) {
+    .name{
+        font-size: 25px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 15px;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: none;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 12%;
+    }
+    .header-parameters{
+        display: none;
+    }
+    .name-header-param{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .nav{
+        display: flex;
+        justify-content: start;
+        gap: 12%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-header{
+        font-size:20px ;
+    }
+    .main-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-school-header{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .main-school{
+        width: 300px;
+        text-align: center;
+    }
+    .main-school-name{
+        font-size: 12px;
+    }
+    .main-school-year{
+        font-size: 12px;
+    }
+    .main-school-address{
+        font-size: 12px;
+    }
+    .main-school-gpa{
+        font-size: 12px;
+    }
+    .main-school-text{
+        font-size: 12px;
+    }
+    .main-university{
+        width: 300px;
+        text-align: center;
+    }
+    .main-university-header{
+        display: flex;
+        gap: 3%;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .main-university-name{
+        font-size: 12px;
+    }
+    .main-university-year{
+        font-size: 12px;
+    }
+    .main-university-address{
+        font-size: 12px;
+    }
+    .main-university-gpa{
+        font-size: 12px;
+    }
+    .main-university-text{
+        font-size: 12px;
+    }
+    .main-school-address, .main-university-address{
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+}

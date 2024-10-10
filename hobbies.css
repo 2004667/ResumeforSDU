@@ -1,0 +1,339 @@
+@media only screen and (min-width: 1601px){
+    .name{
+        font-size: 30px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: flex;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 30%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .account-param{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+        width: 250px;
+        gap: 3%;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+    }
+    .main-header{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .main-main{
+        display: flex;
+        justify-content: center;
+        width: 65%;
+        justify-content: space-around;
+    }
+    .main-main img{
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 10%;
+        margin-top: 8%;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra, .main-main-judo, 
+    .main-main-reading , .main-main-prog{
+        background-color: rgb(13, 27, 52);
+        border-radius: 10%;
+        width: 260px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra p, .main-main-judo p, 
+    .main-main-reading p, .main-main-prog p {
+        width: 180px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .header-menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1600px) {
+    .name{
+        font-size: 30px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: flex;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 30%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .account-param{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+        width: 250px;
+        gap: 3%;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        gap: 30%;
+    }
+    .main-header{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .main-main{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        justify-content: space-around;
+    }
+    .main-main img{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10%;
+        margin-top: 8%;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra, .main-main-judo, 
+    .main-main-reading , .main-main-prog{
+        background-color: rgb(13, 27, 52);
+        border-radius: 10%;
+        width: 220px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra p, .main-main-judo p, 
+    .main-main-reading p, .main-main-prog p {
+        width: 180px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .header-menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 429px) and (max-width: 800px) {
+    .name{
+        font-size: 25px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 15px;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: none;
+        
+    }
+    .name-header-param{
+        display: flex;
+        gap: 12%;
+    }
+    .header-parameters{
+        display: flex;
+        align-items: center;
+        gap: 12%;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .nav{
+        display: flex;
+        justify-content: start;
+        gap: 30%;
+    }
+    .main-header{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .main-main{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 30px 10px;
+    }
+    .main-main img{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10%;
+        margin-top: 8%;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra, .main-main-judo, 
+    .main-main-reading , .main-main-prog{
+        background-color: rgb(13, 27, 52);
+        border-radius: 10%;
+        width: 220px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra p, .main-main-judo p, 
+    .main-main-reading p, .main-main-prog p {
+        width: 180px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .header-menu{
+        display: none;
+    }
+}
+@media only screen and (max-width:428px) {
+    .name{
+        font-size: 25px;
+        font-weight: 700;
+        color: #39E773;
+    }
+    .header-parameters a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 15px;
+    }
+    .crush-img-email{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+    .account-param{
+        display: none;
+        
+    }
+    .name-header-param{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .header-parameters{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: start;
+        gap: 30%;
+    }
+    .main-header{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .main-main{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 30px 10px;
+    }
+    .main-main img{
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10%;
+        margin-top: 8%;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra, .main-main-judo, 
+    .main-main-reading , .main-main-prog{
+        background-color: rgb(13, 27, 52);
+        border-radius: 10%;
+        width: 220px;
+        height: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-main-dombyra p, .main-main-judo p, 
+    .main-main-reading p, .main-main-prog p {
+        width: 180px;
+        text-align: center;
+        font-size: 13px;
+    }
+}

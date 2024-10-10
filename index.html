@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+       <nav class="nav">
+           <div class="name-header-param">
+              <p class="name">Ilias Nyssanbek</p>
+              <div class="header-parameters">
+                 <a href="./index.html">Home</a>
+                 <a href="./family.html">Family</a>
+                 <a href="./education.html">Education</a>
+                 <a href="./hobbies.html">Hobbies</a>
+                 <a href="./contact.html">Contact</a>
+              </div>
+              <div class="header-menu">
+                <img src="./images/list.png" alt="" width="40px" height="40px">
+            </div>
+           </div>
+           <div class="account-param">
+               <img src="./images/krosavchik.jpg" alt="" class="crush-img-email">
+               <p>ilias2004nyssanbek@gmail.com</p>
+           </div>
+       </nav>
+    </header>
+    <main>
+        <div class="fullmain">
+            <section class="main-words">
+                <div class="main-hello">
+                   <h1>Hello, it's me</h1>
+                </div>
+                <div class="main-ilias">
+                   <h1>Ilias</h1>
+                </div>
+                <div class="main-who">
+                   <p>A 19-year old 3rd grade student at SDU who has a big interest in frontend development.
+                    My actual goal is to find the internship in this specification.
+                   </p>
+                </div>
+            </section>
+            <aside class="main-img">
+                <img src="./images/КРАШ.jpg" alt="" class="crush-img">
+            </aside>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    
+    body {
+        color: white;
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    a:hover , a:active  {
+        color: #39E773;
+    }
+
+    nav {
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+    .main-words {
+        opacity: 0;
+        animation: slideInFromLeft 1.5s ease-out forwards;
+    }
+
+    .main-img {
+        opacity: 0;
+        animation: slideInFromRight 1.5s ease-out forwards;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInFromLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+</style>
+</html>

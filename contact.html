@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <header>
+       <nav class="nav">
+           <div class="name-header-param">
+              <p class="name">Ilias Nyssanbek</p>
+              <div class="header-parameters">
+                 <a href="./index.html">Home</a>
+                 <a href="./family.html">Family</a>
+                 <a href="./education.html">Education</a>
+                 <a href="./hobbies.html">Hobbies</a>
+                 <a href="./contact.html">Contact</a>
+              </div>
+              <div class="header-menu">
+                <img src="./images/list.png" alt="" width="40px" height="40px">
+              </div>
+           </div>
+           <div class="account-param">
+               <img src="./images/krosavchik.jpg" alt="" class="crush-img-email">
+               <p>ilias2004nyssanbek@gmail.com</p>
+           </div>
+       </nav>
+    </header>
+    <main>
+        <section class="main">
+            <div class="main-header">
+                <h1>Information about me:</h1>
+            </div>
+            <div class="main-main">
+                <div class="main-info">
+                    <p>Name: Ilias</p>
+                    <p>Surname: Nyssanbek</p>
+                    <p>Email: ilias2004nyssanbek@gmail.com</p>
+                </div>
+                <div class="main-main-github">
+                    <img src="./images/github.png" alt="">
+                    <a href="https://github.com/2004667">https://github.com/2004667</a>
+                </div>
+                <div class="main-main-whatsapp">
+                    <img src="./images/whatsapp.png" alt="">
+                    <a href="https://web.whatsapp.com/">+7-775-199-21-57</a>
+                </div>
+                <div class="main-main-insta">
+                    <img src="./images/instagr.png" alt="">
+                    <a href="https://www.instagram.com/">@ilias_1711</a>
+                </div>
+                <div class="main-main-telega">
+                    <img src="./images/telegram.png" alt="">
+                    <a href="https://web.telegram.org/k/">@ilkamaster</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body {
+        color: white;
+        background-color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    a:hover , a:active {
+        color: #39E773;
+    }
+
+    .main-header, .main-main {
+        opacity: 0;
+        transform: translateY(20px);
+        animation: fadeInUp 1s ease-out forwards;
+    }
+    .main-main .main-info {
+        animation-delay: 0.5s;
+    }
+
+    .main-main .main-main-github {
+        animation-delay: 0.7s;
+    }
+
+    .main-main .main-main-whatsapp {
+        animation-delay: 0.9s;
+    }
+
+    .main-main .main-main-insta {
+        animation-delay: 1.1s;
+    }
+
+    .main-main .main-main-telega {
+        animation-delay: 1.3s;
+    }
+
+    @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0); 
+        }
+    }
+
+</style>
+</html>
